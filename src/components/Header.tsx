@@ -5,9 +5,9 @@ const Header = () => {
     <header>
       <img className="logo" src={logo} alt="logo" />
       <nav>
-        <a>About</a>
-        <a>Services</a>
-        <a>Contact</a>
+        <a href="/">About</a>
+        <a href="/">Services</a>
+        <a href="/">Contact</a>
         <button className="main-button">
           <span>Login</span>
         </button>
