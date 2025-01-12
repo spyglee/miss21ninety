@@ -5,6 +5,7 @@ import FoodSection from './components/homepage/FoodSection'
 import StartSection from './components/homepage/StartSection'
 import SeparateSection from './components/homepage/SeparateSection'
 import ExpertsSection from './components/homepage/ExpertsSection'
+import RoadmapSection from './components/homepage/RoadmapSection'
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
         <HeroSection />
         <SeparateSection />
         <ExpertsSection />
+        <RoadmapSection />
       </main>
     </>
   )
