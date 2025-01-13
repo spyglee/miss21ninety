@@ -6,6 +6,7 @@ import StartSection from './components/homepage/StartSection'
 import SeparateSection from './components/homepage/SeparateSection'
 import ExpertsSection from './components/homepage/ExpertsSection'
 import RoadmapSection from './components/homepage/RoadmapSection'
+import Footer from './components/Footer'
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
         <ExpertsSection />
         <RoadmapSection />
       </main>
+      <Footer />
     </>
   )
 }

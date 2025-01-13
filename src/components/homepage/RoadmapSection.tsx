@@ -11,7 +11,7 @@ import emailIcon from '../../assets/images/attherate-icon.svg'
 
 const RoadmapSection = () => {
   return (
-    <section className="roadmap">
+    <section id="contact" className="roadmap">
       <div>
         <h2>The Road to Wellness</h2>
         <h3>Transform Your Life with Our Personalized Approach</h3>

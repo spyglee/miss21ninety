@@ -5,7 +5,7 @@ import food4 from '../../assets/images/food-4.webp'
 
 const FoodSection = () => {
   return (
-    <section className="food">
+    <section id="food" className="food">
       <div className="food-item">
         <img className="food-image" src={food1} alt="salad" />
         <h4>Salad</h4>
