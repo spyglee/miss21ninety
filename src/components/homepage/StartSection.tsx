@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import section1 from '../../../public/Section1.webp'
+import Link from 'next/link';
 
 const StartSection = () => {
   return (
@@ -10,9 +11,9 @@ const StartSection = () => {
         <p>
           Welcome to our fitness and nutrition platform, where we empower you to achieve your health goals through personalized exercise and meal plans
         </p>
-        <button className="main-button full-width">
+        <Link className="main-button full-width" href="/signup">
           <span>Join Now</span>
-        </button>
+        </Link>
       </div>
     </section>
   )

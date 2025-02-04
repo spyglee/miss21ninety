@@ -19,7 +19,7 @@ const Header = () => {
           <Link className='md:block hidden' href="#about" onClick={() => scrollToSection('about')}>About</Link>
           <Link className='md:block hidden' href="#food" onClick={() => scrollToSection('food')}>Nutrition</Link>
           <Link className='md:block hidden' href="#contact" onClick={() => scrollToSection('contact')}>Contact</Link>
-          <Link className='bg-mainDark text-white font-bold py-1 px-4 rounded-md' href="/login">
+          <Link className='bg-main text-white font-bold py-1 px-4 rounded-full' href="/login">
             <span>Login</span>
           </Link>
         </nav>
