@@ -1,12 +1,17 @@
 import checkToken from "@/helpers/checkToken"
 import { GetServerSidePropsContext } from "next"
 import '../../app/globals.css'
+import { SidebarProvider } from "@/components/ui/sidebar"
+import AppSidebar from "@/components/ui/appSidebar"
 
 export default function Page() {
   return (
-    <div>
-      <h1>Discover</h1>
-    </div>
+    <SidebarProvider>
+      <AppSidebar />
+      <main>
+        <h1>Discover</h1>
+      </main>
+    </SidebarProvider>
   )
 }
 
